@@ -15,8 +15,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-- Hi there! I'm Nisha Philip, a graduate in Electrical and Electronics Engineering, with a keen interest in VLSI, RTL Design and Verification 
-through academic projects. Familiar with RTL design, Verilog/SystemVerilog, UVM and Assertion
-based verification. Eager to contribute to semiconductor development and grow in a technically
+- Hi there! I'm Nisha Philip, a graduate in Electrical and Electronics Engineering, with a keen interest in VLSI, RTL Design and Verification.
+I'm familiar with RTL design, Verilog/SystemVerilog, UVM and Assertion
+based verification. Having worked on various projects, I'm eager to contribute to semiconductor development and grow in a technically
 challenging environment.
 
