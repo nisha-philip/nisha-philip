@@ -33,7 +33,9 @@ challenging environment.
 
 ## EDUCATION
 -Bachelor of Engineering: Electrical and Electronics Engineering
+
 2021-2025
+
 CGPA: 9.01/10
 
 ## PROJECTS
