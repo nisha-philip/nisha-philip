@@ -1,18 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nisha Philip | VLSI & RTL Design</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        /* --- 1. THEME VARIABLES --- */
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #2c3e50;
+            --accent-blue: #667eea;
+            --accent-purple: #764ba2;
+            --card-bg: #f8f9fa;
+        }
+
+        [data-theme="dark"] {
+            --bg-color: #0f172a;
+            --text-color: #f1f5f9;
+            --accent-blue: #a78bfa;
+            --accent-purple: #c084fc;
+            --card-bg: #1e293b;
+        }
+
+        /* --- 2. LAYOUT STYLES --- */
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            transition: all 0.3s ease;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* --- 3. TOGGLE SWITCH --- */
+        .theme-switch-wrapper {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 20px;
+            position: sticky;
+            top: 0;
+            background: var(--bg-color);
+            z-index: 100;
+        }
+
+        .theme-switch {
+            display: inline-block;
+            height: 24px;
+            position: relative;
+            width: 50px;
+            margin: 0 10px;
+        }
+
+        .theme-switch input { display:none; }
+
+        .slider {
+            background-color: #ccc;
+            bottom: 0; cursor: pointer;
+            left: 0; position: absolute;
+            right: 0; top: 0;
+            transition: .4s;
+            border-radius: 34px;
+        }
+
+        .slider:before {
+            background-color: #fff;
+            bottom: 4px; content: "";
+            height: 16px; left: 4px;
+            position: absolute; transition: .4s;
+            width: 16px;
+            border-radius: 50%;
+        }
+
+        input:checked + .slider { background-color: var(--accent-purple); }
+        input:checked + .slider:before { transform: translateX(26px); }
+
+        /* --- 4. CONTENT STYLING --- */
+        h1, h2, h3 { color: var(--accent-purple); }
+        
+        .project-card {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border-left: 5px solid var(--accent-blue);
+        }
+
+        .stats-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        img { max-width: 100%; height: auto; }
+
+        /* Dark mode filter for stats */
+        [data-theme="dark"] .github-stats {
+            filter: invert(0.05) hue-rotate(10deg);
+        }
+    </style>
 </head>
-<div class="theme-switch-wrapper">
-    <span id="mode-label">LOGIC 0</span>
-    <label class="theme-switch" for="checkbox">
-        <input type="checkbox" id="checkbox" />
-        <div class="slider round"></div>
-    </label>
-    <span id="mode-label">LOGIC 1</span>
-</div>
-[data-theme="dark"] img.stats-card {
-    filter: invert(0.9) hue-rotate(180deg);
-}
-<script src="script.js"></script> 
+<body>
+
+    <div class="theme-switch-wrapper">
+        <span>LOGIC 0</span>
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+        </label>
+        <span>LOGIC 1</span>
+    </div>
+
+    <div class="container">
+        <header align="center">
+            <img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=Nisha%20Philip&fontSize=70&animation=fadeIn" alt="Banner" />
+            <p style="font-size: 1.2em; font-weight: bold;">Electrical & Electronics Engineer | VLSI & RTL Design</p>
+        </header>
+
+        <section>
+            <h2>𝖠𝖻𝗈𝗎𝗍 𝖬𝖾 💡</h2>
+            <p>Hi there! I'm <b>Nisha Philip</b>, a graduate in Electrical and Electronics Engineering with a keen interest in <b>VLSI, RTL Design, and Verification</b>.</p>
+            <p>I specialize in building reliable hardware architectures and ensuring they meet industry standards using <b>UVM, SystemVerilog, and Assertion-Based Verification.</b></p>
+        </section>
+
+        <section>
+            <h2>🛠 Technical Toolbox</h2>
+            <div class="stats-grid">
+                <img src="https://img.shields.io/badge/Verilog-%232C2D33.svg?style=for-the-badge&logo=IEEE&logoColor=white">
+                <img src="https://img.shields.io/badge/SystemVerilog-%232C2D33.svg?style=for-the-badge&logo=IEEE&logoColor=white">
+                <img src="https://img.shields.io/badge/UVM-Verification-blue?style=for-the-badge">
+            </div>
+        </section>
+
+        <section>
+            <h2>🚀 Featured Projects</h2>
+            
+            <div class="project-card">
+                <h3>Verification IP for AXI Protocol</h3>
+                <p>Built a robust, reusable VIP to validate AXI4 protocol compliance using UVM 1.2. Features Master/Slave agents and constrained-random sequences.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Design and Verification of a 1x3 Router</h3>
+                <p>Full RTL-to-Synthesis flow featuring an FSM-based controller and FIFO buffers. Achieved 100% functional coverage.</p>
+            </div>
+        </section>
+
+        <section align="center">
+            <h2>📊 GitHub Stats</h2>
+            <div class="github-stats">
+                <img src="https://github-readme-stats.vercel.app/api?username=nisha-philip&theme=radical&hide_border=false" />
+                <br><br>
+                <img src="https://nirzak-streak-stats.vercel.app/?user=nisha-philip&theme=radical&hide_border=false" />
+            </div>
+        </section>
+
+        <footer align="center" style="margin-top: 50px;">
+            <hr>
+            <a href="https://www.linkedin.com/in/nisha-philip/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+            <a href="mailto:nishaphilip2410@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+        </footer>
+    </div>
+
+    <script>
+        const toggleSwitch = document.querySelector('#checkbox');
+        const currentTheme = localStorage.getItem('theme');
+
+        if (currentTheme) {
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            if (currentTheme === 'dark') {
+                toggleSwitch.checked = true;
+            }
+        }
+
+        function switchTheme(e) {
+            if (e.target.checked) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                document.documentElement.setAttribute('data-theme', 'light');
+                localStorage.setItem('theme', 'light');
+            }    
+        }
+
+        toggleSwitch.addEventListener('change', switchTheme, false);
+    </script>
 </body>
+</html>
