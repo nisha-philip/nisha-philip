@@ -20,55 +20,107 @@ I'm familiar with RTL design, Verilog/SystemVerilog, UVM and Assertion
 based verification. Having worked on various projects, I'm eager to contribute to semiconductor development and grow in a technically
 challenging environment.
 
-## SKILLS
--Verilog
 
--Systemverilog
+## 🛠 SKILLS
 
--UVM
+![Verilog](https://img.shields.io/badge/Verilog-%232C2D33.svg?style=for-the-badge&logo=IEEE&logoColor=white)
 
--Assertion Based Verification
+![SystemVerilog](https://img.shields.io/badge/SystemVerilog-%232C2D33.svg?style=for-the-badge&logo=IEEE&logoColor=white)
 
--Digital Design
+![UVM](https://img.shields.io/badge/UVM-Verification-blue?style=for-the-badge)
 
-## EDUCATION
--Bachelor of Engineering: Electrical and Electronics Engineering
+![Digital Design](https://img.shields.io/badge/Digital%20Design-FPGA%20%2F%20ASIC-orange?style=for-the-badge)
 
-2021-2025
 
-CGPA: 9.01/10
+
+
+## 🎓 EDUCATION
+
+> ### **Bachelor of Engineering in Electrical and Electronics**
+> **BMS College of Engineering** |
+> 
+>  *2021 — 2025* > ![CGPA](https://img.shields.io/badge/CGPA-9.01%20%2F%2010-brightgreen?style=flat-square&logo=google-scholar&logoColor=white)
+>
+> - **Focus:** VLSI Design, Digital System Design, and Hardware Verification.
+> - **Key Coursework:** Microprocessors, Control Systems, Computer Architecture.
+
 
 ## PROJECTS
-**Hardware Based Skin Cancer Detection**
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Open_for_Opportunities-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Focus-UVM_%7C_RTL_Design_%7C_FPGA-blue?style=for-the-badge">
+</p>
 
-Developed and optimized a Convolutional Neural Network (CNN) to classify cancerous skin moles
-with 90% accuracy Quantized the model for efficient deployment and deployed it on both Pynq ZU
-FPGA using Xilinx Vivado and Raspberry Pi 3 
-Integrated real-time webcam input to compare inference time and latency across hardware platforms 
-Secured 3 place among 20 teams in the departmental project expo for real time skin cancer
-detection prototype.
+---
+**Hardware Based Skin Cancer Detection**
+> **Goal:** High-speed medical diagnostics using optimized CNNs on edge hardware.
+
+| Key Metric | Tech Stack | Achievement |
+| :--- | :--- | :--- |
+| **90% Accuracy** | `Python` `Vivado` `Pynq ZU` | 🥉 **3rd Place** (out of 20) in Project Expo |
+
+* **Optimization:** Quantized a CNN model for efficient deployment on resource-constrained **Pynq ZU FPGA** and Raspberry Pi 3.
+* **Performance:** Benchmarked real-time inference latency using webcam integration to compare FPGA vs. CPU throughput.
+* **Impact:** Developed a working prototype for low-latency, portable cancer screening.
+
+---
+
 
 
 **Verification IP for AXI Protocol**
 
-Built a UVM-based AXI verification environment with master/slave agents, scoreboard, and functional
-coverage.
-Developed constrained-random sequences for read/write, increment, fixed, and wrap bursts to
-validate protocol compliance.
-Implemented data integrity checking and protocol assertions (handshake, burst rules, alignment) to
-catch DUT violations using QuestaSim
+> **Goal:** A robust, reusable VIP to validate AXI4 protocol compliance.
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Methodology-UVM_1.2-red?style=flat-square">
+  <img src="https://img.shields.io/badge/Tool-QuestaSim-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/Language-SystemVerilog-orange?style=flat-square">
+</p>
+
+* **Architecture:** Built a complete UVM environment featuring **Master/Slave Agents**, Scoreboards, and Predictors.
+* **Verification:** Authored constrained-random sequences for **Read/Write, Increment, Fixed, and Wrap** bursts.
+* **Robustness:** Implemented **SystemVerilog Assertions (SVA)** for handshake rules and data alignment to catch protocol violations.
+
+---
+---
+
 
 
 **Design and Verification of a 1x3 Router** 
 
-Designed and verified RTL modules including FIFO, FSM, Synchronizer, and Register using Verilog 
-Developed comprehensive testbenches to validate functional behavior 
-Performed linting using Synopsys VCS; synthesized the design using Design Compiler
-Designed a UVM Based Testbench Architecture to verify different data packets -achieving 100%
-functional coverage with Questasim
+> **Goal:** Full RTL-to-Synthesis flow for a high-performance network router, achieving 100% functional coverage.
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Design-Verilog_HDL-green?style=flat-square">
+  <img src="https://img.shields.io/badge/Tools-Synopsys_VCS_%7C_Design_Compiler-red?style=flat-square">
+  <img src="https://img.shields.io/badge/Verification-UVM-blue?style=flat-square">
+</p>
+
+#### **Technical Specifications**
+| Feature | Implementation Details |
+| :--- | :--- |
+| **Modules** | FIFO, FSM Controller, Synchronizer, Register Block |
+| **Synthesis** | Optimized using **Synopsys Design Compiler** |
+| **Linting** | Static analysis performed with **VCS** |
+| **Coverage** | 100% Functional Coverage via **QuestaSim** |
+
+#### **Engineering Highlights**
+* **RTL Architecture:** Designed a robust 1x3 Router featuring an **FSM-based controller** for packet routing and **FIFO buffers** for data storage.
+* **Clock Domain Crossing:** Integrated a **Synchronizer** module to ensure data integrity across asynchronous boundaries.
+* **UVM Framework:** Developed a comprehensive UVM Testbench to verify diverse data packet types and edge-case scenarios.
+* **Synthesis Flow:** Performed logic synthesis to transform RTL into a gate-level netlist, ensuring timing and area constraints were met.
 
 
-**Pressure Detection Based PCB**
 
-Designed PCB in KiCAD to convert 230V AC to 5V DC for microcontroller with power module 
-Displayed pressure sensor readings on 7-segment displays via amplification and signal conditioning
+
+
+## 🌐 SOCIALS:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/nisha-philip/)  [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:nishaphilip2410@gmail.com)
+
+
+# 📊 GITHUB STATS:
+![](https://github-readme-stats.vercel.app/api?username=nisha-philip&theme=radical&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=nisha-philip&theme=radical&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=nisha-philip&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
+---
