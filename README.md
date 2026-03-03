@@ -1,17 +1,16 @@
-<p align="center">
+ <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=NISHA%20PHILIP&fontSize=70&animation=fadeIn" />
 </p>
 
-## 𝖠BOUT 𝖬E 💡
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=764BA2&center=true&vCenter=true&width=600&lines=VLSI+DV+Engineer;RTL+Design+%26+Verification+Enthusiast;UVM+%7C+SystemVerilog+%7C+Assertions" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=764BA2&center=true&vCenter=true&width=600&lines=VLSI+DV+ENGINEER;RTL+DESIGN+%26+VERIFICATION+ENTHUSIAST;UVM+%7C+SYSTEMVERILOG+%7C+ASSERTIONS" alt="Typing SVG" />
 </p>
 
-<img src="https://img.shields.io/badge/Hi%20there!%20I'm%20Nisha%20Philip-667eea?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/About%20Me-667eea?style=for-the-badge&logoColor=white" />
 
 <br>
 
-I am a graduate in **Electrical and Electronics Engineering** with a keen interest in **VLSI, RTL Design, and Verification**. I specialize in building reliable hardware architectures and ensuring they meet the highest industry standards.
+I am a graduate in _**Electrical and Electronics Engineering**_ with a keen interest in **VLSI, RTL Design, and Verification**. I specialize in building reliable hardware architectures and ensuring they meet the highest industry standards.
 
 <br>
 
@@ -39,7 +38,6 @@ I am well-versed in **RTL Design**, **Verilog/SystemVerilog**, **UVM**, and **As
 ## 🎓 EDUCATION
 
 > ### **Bachelor of Engineering in Electrical and Electronics**
-> **BMS College of Engineering** |
 > 
 >  *2021 — 2025* > ![CGPA](https://img.shields.io/badge/CGPA-9.01%20%2F%2010-brightgreen?style=flat-square&logo=google-scholar&logoColor=white)
 >
@@ -108,8 +106,6 @@ I am well-versed in **RTL Design**, **Verilog/SystemVerilog**, **UVM**, and **As
 
 
 
-
-
 ## 🌐 SOCIALS:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nisha-philip/) 
@@ -123,4 +119,4 @@ I am well-versed in **RTL Design**, **Verilog/SystemVerilog**, **UVM**, and **As
 ![](https://nirzak-streak-stats.vercel.app/?user=nisha-philip&theme=radical&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=nisha-philip&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
----
+--- 
