@@ -1,24 +1,26 @@
-## ABOUT ME
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=NISHA%20PHILIP&fontSize=70&animation=fadeIn" />
+</p>
 
-<!--
-**nisha-philip/nisha-philip** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 𝖠BOUT 𝖬E 💡
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=764BA2&center=true&vCenter=true&width=600&lines=VLSI+DV+Engineer;RTL+Design+%26+Verification+Enthusiast;UVM+%7C+SystemVerilog+%7C+Assertions" alt="Typing SVG" />
+</p>
 
-Here are some ideas to get you started:
+<img src="https://img.shields.io/badge/Hi%20there!%20I'm%20Nisha%20Philip-667eea?style=for-the-badge&logoColor=white" />
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br>
 
-- Hi there! I'm Nisha Philip, a graduate in Electrical and Electronics Engineering, with a keen interest in VLSI, RTL Design and Verification.
-I'm familiar with RTL design, Verilog/SystemVerilog, UVM and Assertion
-based verification. Having worked on various projects, I'm eager to contribute to semiconductor development and grow in a technically
-challenging environment.
+I am a graduate in **Electrical and Electronics Engineering** with a keen interest in **VLSI, RTL Design, and Verification**. I specialize in building reliable hardware architectures and ensuring they meet the highest industry standards.
+
+<br>
+
+<img src="https://img.shields.io/badge/My%20Technical%20Philosophy-764ba2?style=for-the-badge&logoColor=white" />
+
+<br>
+
+I am well-versed in **RTL Design**, **Verilog/SystemVerilog**, **UVM**, and **Assertion-Based Verification**. Having successfully executed multiple projects, I am eager to contribute to semiconductor development and grow within a technically rigorous environment.
+
 
 
 ## 🛠 SKILLS
@@ -51,38 +53,32 @@ challenging environment.
   <img src="https://img.shields.io/badge/Focus-UVM_%7C_RTL_Design_%7C_FPGA-blue?style=for-the-badge">
 </p>
 
+<details open>
+<summary><b>🛡️ Verification IP for AXI Protocol</b></summary>
+<br>
+<blockquote>Built a robust, reusable VIP to validate AXI4 protocol compliance using UVM 1.2.</blockquote>
+
+* **Architecture:** Developed Master/Slave Agents, Scoreboards, and Predictors.
+* **Verification:** Authored constrained-random sequences for Read/Write, Increment, Fixed, and Wrap bursts.
+* **SVA:** Implemented SystemVerilog Assertions for handshake rules and data alignment.
+</details>
+
+<br>
 ---
-**Hardware Based Skin Cancer Detection**
-> **Goal:** High-speed medical diagnostics using optimized CNNs on edge hardware.
+<details>
+<summary><b>🧠 Hardware Based Skin Cancer Detection</b></summary>
+<br>
+<blockquote>High-speed medical diagnostics using optimized CNNs on edge hardware.</blockquote>
 
-| Key Metric | Tech Stack | Achievement |
-| :--- | :--- | :--- |
-| **90% Accuracy** | `Python` `Vivado` `Pynq ZU` | 🥉 **3rd Place** (out of 20) in Project Expo |
-
-* **Optimization:** Quantized a CNN model for efficient deployment on resource-constrained **Pynq ZU FPGA** and Raspberry Pi 3.
-* **Performance:** Benchmarked real-time inference latency using webcam integration to compare FPGA vs. CPU throughput.
-* **Impact:** Developed a working prototype for low-latency, portable cancer screening.
-
----
+* **Placement:** 🥉 3rd Place out of 20 teams in Project Expo.
+* **Optimization:** Quantized CNN models for resource-constrained **Pynq ZU FPGA**.
+* **Metric:** Achieved 90% accuracy with real-time inference latency benchmarking.
+</details>
 
 
 
-**Verification IP for AXI Protocol**
 
-> **Goal:** A robust, reusable VIP to validate AXI4 protocol compliance.
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Methodology-UVM_1.2-red?style=flat-square">
-  <img src="https://img.shields.io/badge/Tool-QuestaSim-blue?style=flat-square">
-  <img src="https://img.shields.io/badge/Language-SystemVerilog-orange?style=flat-square">
-</p>
-
-* **Architecture:** Built a complete UVM environment featuring **Master/Slave Agents**, Scoreboards, and Predictors.
-* **Verification:** Authored constrained-random sequences for **Read/Write, Increment, Fixed, and Wrap** bursts.
-* **Robustness:** Implemented **SystemVerilog Assertions (SVA)** for handshake rules and data alignment to catch protocol violations.
-
----
----
 
 
 
@@ -115,10 +111,14 @@ challenging environment.
 
 
 ## 🌐 SOCIALS:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/nisha-philip/)  [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:nishaphilip2410@gmail.com)
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nisha-philip/) 
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nishaphilip2410@gmail.com)
+
+---
 
 # 📊 GITHUB STATS:
+
 ![](https://github-readme-stats.vercel.app/api?username=nisha-philip&theme=radical&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=nisha-philip&theme=radical&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=nisha-philip&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
