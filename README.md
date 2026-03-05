@@ -78,7 +78,6 @@ I am well-versed in **RTL Design**, **Verilog/SystemVerilog**, **UVM**, and **As
 * 🥉 3rd Place out of 20 teams in Project Expo.
 * **Optimization:** Quantized CNN models for resource-constrained **Pynq ZU FPGA**.
 * **Metric:** Achieved 90% accuracy with real-time inference latency benchmarking.
-</details>
 
 
 
