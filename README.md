@@ -10,19 +10,22 @@
 
 <br>
 
-I am a graduate in _**Electrical and Electronics Engineering**_ with a keen interest in **VLSI, RTL Design, and Verification**. I specialize in building reliable hardware architectures and ensuring they meet the highest industry standards.
+I am a graduate in _**Electrical and Electronics Engineering**_ with a keen interest in _**VLSI, RTL Design, and Verification**_. I specialize in building reliable hardware architectures and ensuring they meet the highest industry standards.
 
 <br>
 
 <img src="https://img.shields.io/badge/My%20Technical%20Philosophy-764ba2?style=for-the-badge&logoColor=white" />
-
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Open_for_Opportunities-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Focus-UVM_%7C_RTL_Design_%7C_FPGA-blue?style=for-the-badge">
+</p>
 <br>
 
 I am well-versed in **RTL Design**, **Verilog/SystemVerilog**, **UVM**, and **Assertion-Based Verification**. Having successfully executed multiple projects, I am eager to contribute to semiconductor development and grow within a technically rigorous environment.
 
 
+<img src="https://img.shields.io/badge/SKILLS-667eea?style=for-the-badge&logoColor=white" />
 
-## 🛠 SKILLS
 
 ![Verilog](https://img.shields.io/badge/Verilog-%232C2D33.svg?style=for-the-badge&logo=IEEE&logoColor=white)
 
@@ -33,42 +36,46 @@ I am well-versed in **RTL Design**, **Verilog/SystemVerilog**, **UVM**, and **As
 ![Digital Design](https://img.shields.io/badge/Digital%20Design-FPGA%20%2F%20ASIC-orange?style=for-the-badge)
 
 
+<img src="https://img.shields.io/badge/EDUCATION-667eea?style=for-the-badge&logoColor=white" />
 
 
-## 🎓 EDUCATION
+
 
 > ### **Bachelor of Engineering in Electrical and Electronics**
 > 
->  *2021 — 2025* > ![CGPA](https://img.shields.io/badge/CGPA-9.01%20%2F%2010-brightgreen?style=flat-square&logo=google-scholar&logoColor=white)
+>  *2021 — 2025*
+>  ![CGPA](https://img.shields.io/badge/CGPA-9.01%20%2F%2010-brightgreen?style=flat-square&logo=google-scholar&logoColor=white)
 >
 > - **Focus:** VLSI Design, Digital System Design, and Hardware Verification.
 > - **Key Coursework:** Microprocessors, Control Systems, Computer Architecture.
 
+<img src="https://img.shields.io/badge/PROJECTS-667eea?style=for-the-badge&logoColor=white" />
 
-## PROJECTS
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Open_for_Opportunities-brightgreen?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Focus-UVM_%7C_RTL_Design_%7C_FPGA-blue?style=for-the-badge">
+
+
+ 
+ **Verification IP for AXI Protocol**
+ <p align="left">
+  <img src="https://img.shields.io/badge/Design-Verilog_HDL-green?style=flat-square">
+  <img src="https://img.shields.io/badge/Tools-Synopsys_VCS_%7C_Design_Compiler-red?style=flat-square">
+  <img src="https://img.shields.io/badge/Verification-UVM-blue?style=flat-square">
 </p>
-
-<details open>
-<summary><b>🛡️ Verification IP for AXI Protocol</b></summary>
-<br>
 <blockquote>Built a robust, reusable VIP to validate AXI4 protocol compliance using UVM 1.2.</blockquote>
 
 * **Architecture:** Developed Master/Slave Agents, Scoreboards, and Predictors.
 * **Verification:** Authored constrained-random sequences for Read/Write, Increment, Fixed, and Wrap bursts.
 * **SVA:** Implemented SystemVerilog Assertions for handshake rules and data alignment.
-</details>
 
-<br>
----
-<details>
-<summary><b>🧠 Hardware Based Skin Cancer Detection</b></summary>
+ 
+ **Hardware Based Skin Cancer Detection**
+ <p align="left">
+  <img src="https://img.shields.io/badge/Design-Verilog_HDL-green?style=flat-square">
+  <img src="https://img.shields.io/badge/Tools-Xilinx_Vivado_%7C_Vitis_AI-red?style=flat-square">
+</p>
 <br>
 <blockquote>High-speed medical diagnostics using optimized CNNs on edge hardware.</blockquote>
 
-* **Placement:** 🥉 3rd Place out of 20 teams in Project Expo.
+* 🥉 3rd Place out of 20 teams in Project Expo.
 * **Optimization:** Quantized CNN models for resource-constrained **Pynq ZU FPGA**.
 * **Metric:** Achieved 90% accuracy with real-time inference latency benchmarking.
 </details>
@@ -98,22 +105,21 @@ I am well-versed in **RTL Design**, **Verilog/SystemVerilog**, **UVM**, and **As
 | **Linting** | Static analysis performed with **VCS** |
 | **Coverage** | 100% Functional Coverage via **QuestaSim** |
 
-#### **Engineering Highlights**
 * **RTL Architecture:** Designed a robust 1x3 Router featuring an **FSM-based controller** for packet routing and **FIFO buffers** for data storage.
 * **Clock Domain Crossing:** Integrated a **Synchronizer** module to ensure data integrity across asynchronous boundaries.
 * **UVM Framework:** Developed a comprehensive UVM Testbench to verify diverse data packet types and edge-case scenarios.
 * **Synthesis Flow:** Performed logic synthesis to transform RTL into a gate-level netlist, ensuring timing and area constraints were met.
 
 
+<img src="https://img.shields.io/badge/SOCIALS-667eea?style=for-the-badge&logoColor=white" />
 
-## 🌐 SOCIALS:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nisha-philip/) 
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nishaphilip2410@gmail.com)
 
 ---
+<img src="https://img.shields.io/badge/GITHUB%20STATS-667eea?style=for-the-badge&logoColor=white" />
 
-# 📊 GITHUB STATS:
 
 ![](https://github-readme-stats.vercel.app/api?username=nisha-philip&theme=radical&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=nisha-philip&theme=radical&hide_border=false)<br/>
