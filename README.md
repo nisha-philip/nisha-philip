@@ -81,6 +81,19 @@ I am well-versed in **RTL Design**, **Verilog/SystemVerilog**, **UVM**, and **As
 
 
 
+**RISC-V Single Cycle Processor Design**
+<p align="left">
+<img src="https://img.shields.io/badge/Design-Verilog_HDL-green?style=flat-square">
+<img src="https://img.shields.io/badge/Tools-Modelsim_/_QuartusPrime-orange?style=flat-square">
+<img src="https://img.shields.io/badge/Architecture-RV32I_ISA-blue?style=flat-square">
+</p>
+<blockquote>Implemented a 32-bit RISC-V core supporting the Base Integer Instruction Set (RV32I) with a single-cycle datapath.</blockquote>
+
+**RTL Design:** Developed modular units for the ALU, Register File (32x32), Control Unit, and Immediate Generator.
+
+**Architecture:** Handled complex decoding for R, I, S, and B-type instructions, including sign-extension jigsaw logic.
+
+**Validation:** Resolved critical memory-alignment issues by implementing word-indexed addressing (PC >> 2) in the instruction memory interface.
 
 
 
